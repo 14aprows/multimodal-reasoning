@@ -13,3 +13,7 @@ TEST_IMAGES_LIST = DATA_DIR / "test_images_list.txt"
 
 ALL_QA = DATA_DIR / "all_qa_pairs.txt"
 ANSWER_SPACE = DATA_DIR / "answer_space.txt"
+
+PAD_TOKEN = "<PAD>"
+UNK_TOKEN = "<UNK>"
+MAX_QUESTION_LENGTH = 20
