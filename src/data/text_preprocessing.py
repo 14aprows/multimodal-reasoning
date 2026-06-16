@@ -1,7 +1,7 @@
 import re
 import pandas as pd
 from collections import Counter
-from configs.config import MAX_QUESTION_LENGTH, PAD_TOKEN, UNK_TOKEN
+from src.configs.config import MAX_QUESTION_LENGTH, PAD_TOKEN, UNK_TOKEN
 
 def preprocess_text(text):
     text = text.lower().strip()
